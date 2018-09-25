@@ -1,0 +1,65 @@
+{
+  "_from": "@polymer/iron-location@^3.0.0-pre.24",
+  "_id": "@polymer/iron-location@3.0.0-pre.25",
+  "_inBundle": false,
+  "_integrity": "sha512-vsfhU72F9XimKfF50OUSnIOHG+ZjHPm3hzWoCxRu9+nOhe7Ms20EBY3Jd01Y1EjviBSsJCbg3IY6lbfB2i3SJw==",
+  "_location": "/@polymer/iron-location",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@polymer/iron-location@^3.0.0-pre.24",
+    "name": "@polymer/iron-location",
+    "escapedName": "@polymer%2firon-location",
+    "scope": "@polymer",
+    "rawSpec": "^3.0.0-pre.24",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.0-pre.24"
+  },
+  "_requiredBy": [
+    "/@polymer/iron-demo-helpers"
+  ],
+  "_resolved": "https://registry.npmjs.org/@polymer/iron-location/-/iron-location-3.0.0-pre.25.tgz",
+  "_shasum": "eeb40ba371f2f7254236b3ed97d8045d54c6a8fc",
+  "_spec": "@polymer/iron-location@^3.0.0-pre.24",
+  "_where": "C:\\Users\\Sami\\Desktop\\Projects\\email-input-vanilla\\alert-notification\\node_modules\\@polymer\\iron-demo-helpers",
+  "author": {
+    "name": "The Polymer Authors"
+  },
+  "bugs": {
+    "url": "https://github.com/PolymerElements/iron-location/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "Bidirectional data binding into the page's URL.",
+  "devDependencies": {
+    "@polymer/gen-typescript-declarations": "^1.5.1",
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.24",
+    "@polymer/iron-flex-layout": "^3.0.0-pre.24",
+    "@polymer/test-fixture": "^4.0.0-pre.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.1",
+    "webmat": "^0.2.0"
+  },
+  "homepage": "https://github.com/PolymerElements/iron-location",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "routing"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "@polymer/iron-location",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/iron-location.git"
+  },
+  "scripts": {
+    "format": "webmat",
+    "generate-types": "gen-typescript-declarations --deleteExisting --outDir . --verify",
+    "prepack": "npm run generate-types"
+  },
+  "version": "3.0.0-pre.25"
+}

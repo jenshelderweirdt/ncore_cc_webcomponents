@@ -1,0 +1,70 @@
+{
+  "_from": "@polymer/marked-element@^3.0.0-pre.24",
+  "_id": "@polymer/marked-element@3.0.0-pre.25",
+  "_inBundle": false,
+  "_integrity": "sha512-IVXHRPzR5LW9KyWFDKYyRR9pdPXsllA461sJ0j3+W9ltVrvPAWwdwoamZzSaYILFjn0T4M6+fGj7b1LH5Vnzdg==",
+  "_location": "/@polymer/marked-element",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@polymer/marked-element@^3.0.0-pre.24",
+    "name": "@polymer/marked-element",
+    "escapedName": "@polymer%2fmarked-element",
+    "scope": "@polymer",
+    "rawSpec": "^3.0.0-pre.24",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.0-pre.24"
+  },
+  "_requiredBy": [
+    "/@polymer/iron-demo-helpers"
+  ],
+  "_resolved": "https://registry.npmjs.org/@polymer/marked-element/-/marked-element-3.0.0-pre.25.tgz",
+  "_shasum": "afd4fd814d1940be79f1f80c7e3cef55738bf383",
+  "_spec": "@polymer/marked-element@^3.0.0-pre.24",
+  "_where": "C:\\Users\\Sami\\Desktop\\Projects\\email-input-vanilla\\alert-notification\\node_modules\\@polymer\\iron-demo-helpers",
+  "author": {
+    "name": "The Polymer Project Authors",
+    "url": "https://polymer.github.io/AUTHORS.txt"
+  },
+  "bugs": {
+    "url": "https://github.com/PolymerElements/marked-element/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "marked": "~0.3.9"
+  },
+  "deprecated": false,
+  "description": "Element wrapper for the marked library",
+  "devDependencies": {
+    "@polymer/gen-typescript-declarations": "^1.5.1",
+    "@polymer/paper-styles": "^3.0.0-pre.24",
+    "@polymer/test-fixture": "^4.0.0-pre.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.1",
+    "webmat": "^0.2.0"
+  },
+  "homepage": "https://github.com/PolymerElements/marked-element#readme",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "marked",
+    "markdown",
+    "container",
+    "wrapper"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "marked-element.js",
+  "name": "@polymer/marked-element",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/marked-element.git"
+  },
+  "scripts": {
+    "format": "webmat",
+    "generate-types": "gen-typescript-declarations --deleteExisting --outDir . --verify",
+    "prepack": "npm run generate-types"
+  },
+  "version": "3.0.0-pre.25"
+}

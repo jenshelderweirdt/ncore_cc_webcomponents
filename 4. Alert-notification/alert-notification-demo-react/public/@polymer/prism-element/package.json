@@ -1,0 +1,67 @@
+{
+  "_from": "@polymer/prism-element@^3.0.0-pre.24",
+  "_id": "@polymer/prism-element@3.0.0-pre.25",
+  "_inBundle": false,
+  "_integrity": "sha512-W5wXUz9mKPbG6V1HeRjjl1kIiwmxffrjvuYSdrWI8665o6nQU3zjf/aeWHrnXBMHKxcw41Bmf+Nzh9Lu3rXgEA==",
+  "_location": "/@polymer/prism-element",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@polymer/prism-element@^3.0.0-pre.24",
+    "name": "@polymer/prism-element",
+    "escapedName": "@polymer%2fprism-element",
+    "scope": "@polymer",
+    "rawSpec": "^3.0.0-pre.24",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.0-pre.24"
+  },
+  "_requiredBy": [
+    "/@polymer/iron-demo-helpers"
+  ],
+  "_resolved": "https://registry.npmjs.org/@polymer/prism-element/-/prism-element-3.0.0-pre.25.tgz",
+  "_shasum": "73cb901983f94439123f1eaaebaf2e5bf4f1f5e1",
+  "_spec": "@polymer/prism-element@^3.0.0-pre.24",
+  "_where": "C:\\Users\\Sami\\Desktop\\Projects\\email-input-vanilla\\alert-notification\\node_modules\\@polymer\\iron-demo-helpers",
+  "author": {
+    "name": "The Polymer Project Authors",
+    "url": "https://polymer.github.io/AUTHORS.txt"
+  },
+  "bugs": {
+    "url": "https://github.com/PolymerElements/prism-element/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "prismjs": "^1.11.0"
+  },
+  "deprecated": false,
+  "description": "Prism.js import and syntax highlighting",
+  "devDependencies": {
+    "@polymer/gen-typescript-declarations": "^1.5.1",
+    "@polymer/paper-styles": "^3.0.0-pre.24",
+    "@polymer/test-fixture": "^4.0.0-pre.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.1",
+    "webmat": "^0.2.0"
+  },
+  "homepage": "https://github.com/PolymerElements/prism-highlighter",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "prism",
+    "molecule"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "@polymer/prism-element",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/prism-element.git"
+  },
+  "scripts": {
+    "format": "webmat",
+    "generate-types": "gen-typescript-declarations --deleteExisting --outDir . --verify",
+    "prepack": "npm run generate-types"
+  },
+  "version": "3.0.0-pre.25"
+}
